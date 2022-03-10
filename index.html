@@ -60,11 +60,47 @@
     <!-- how does javascript work -->
     <section class="container mt-3 bg-light">
         <h3 class="text-center text-primary fw-bold pt-3">How does Javascript Work?</h3>
-        <p class="mb-3">Javascript is a single-threaded programming language. It can do one thing at a
+        <p class="mb-3 pb-2">Javascript is a single-threaded programming language. It can do one thing at a
             time and it execute the code from the top to bottom. Javascript has a single call stack. The call stack is a
             data structure that records wherein the program are. In Javascript we push code or function on the top of
             the stack. So, Javascript works by executing one thing at a time.</p>
     </section>
+
+    <!-- LocalStorage vs SessionStorage -->
+    <section class="container mt-3">
+        <table class="table table-bordered border-primary">
+            <thead>
+                <tr>
+                    <th class="text-center bg-light" scope="col">LocalStorage</th>
+                    <th class="text-center bg-light" scope="col">SessionStorage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>If we add some value in local storage it stays even if we close the tab.</td>
+                    <td>If we add some value and close the tab the value will be no longer stored.</td>
+                </tr>
+                <tr>
+                    <td>If we want to delete a data we have to delete it via javascript or manually.</td>
+                    <td>If we close the tab the data will be deleted.</td>
+                </tr>
+                <tr>
+
+                    <td>The client can only read local storage.</td>
+                    <td>The client can only read local storage.</td>
+                </tr>
+                <tr>
+                    <td>We can set, get and view data.</td>
+                    <td>We can set, get and view data but if we close the tab it all will be vanished.</td>
+                </tr>
+                <tr>
+                    <td>There is no transfer of data to the server.</td>
+                    <td>There is no transfer of data to the server.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     <footer></footer>
 
     <!-- add javascript  file  -->
